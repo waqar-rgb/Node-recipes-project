@@ -17,6 +17,7 @@ const blogRouter = require("./routes/BlogRoutes");
 
 app.use("/api/blogs", blogRouter);
 
+console.log('hello world')
 // database connectivity
 connecteddb()
   .then(() => {
